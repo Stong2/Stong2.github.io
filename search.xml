@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Github+Node.js+Hexo搭建个人网站</title>
+    <url>/2021/02/26/Github-HexoBuildAPersonalWebsite/</url>
+    <content><![CDATA[<h2 id="个人网站方案之Github-Node-js-Hexo"><a href="#个人网站方案之Github-Node-js-Hexo" class="headerlink" title="个人网站方案之Github+Node.js+Hexo"></a>个人网站方案之Github+Node.js+Hexo</h2><h3 id="搭建步骤："><a href="#搭建步骤：" class="headerlink" title="搭建步骤："></a>搭建步骤：</h3><ul>
+<li><p>获得个人网站域名（非必选项）</p>
+</li>
+<li><p>新建Github账号并创建个人仓库</p>
+</li>
+<li><p>安装Git</p>
+</li>
+<li><p>安装Node.js</p>
+</li>
+<li><p>推送网站</p>
+</li>
+<li><p>绑定域名（非必选项）</p>
+</li>
+<li><p>更换主题</p>
+</li>
+<li><p>学习MarkDown语法</p>
+</li>
+<li><p>发布文章</p>
+</li>
+<li><p>寻找图床</p>
+</li>
+<li><p>个性化设置</p>
+</li>
+<li><p>其他</p>
+<span id="more"></span></li>
+</ul>
+<h4 id="获得个人网站域名（非必选项）"><a href="#获得个人网站域名（非必选项）" class="headerlink" title="获得个人网站域名（非必选项）"></a>获得个人网站域名（非必选项）</h4><p>域名是网站的入口，常见的后缀有com，cn，org等。通过网域名称系统（DNS，Domain Name System）来将域名和IP地址相互映射，使人更方便地访问互联网，而不用去记住能够被机器直接读取的IP地址数串。<br>申请域名的地方很多，阿里云、腾讯云、华为云等，而申请域名也是本次建站过程中唯一需要花钱的步骤。但是这一步非必选项，也可以用后面的GitHub仓库名。</p>
+<h4 id="新建Github账号并创建个人仓库"><a href="#新建Github账号并创建个人仓库" class="headerlink" title="新建Github账号并创建个人仓库"></a>新建Github账号并创建个人仓库</h4><p>首先，登录到Github，如果没有Github账号，使用你的邮箱注册。<a href="https://github.com/">Github.com</a><br>其次，点击Github中的New repository创建新仓库，仓库名应该为：username.github.io。username用Github账号名称代替，这是固定写法。<br>比如这样：<img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/Stong2-github-io.jpg" alt="截图"></p>
+<h4 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h4><p>Git是开源的分布式版本控制系统，用于敏捷高效地处理项目。我们网站在本地搭好后就需要使用Git挂（同）载（布）到<del>著名同性交友网站</del>GitHub上面，而想要了解git的具体操作细节，可以自行查看<a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%85%B3%E4%BA%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6">官方文档</a>。另外在此强烈推荐<a href="https://www.liaoxuefeng.com/">廖雪峰大大</a>的<a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程</a>。话不多说，Git的<a href="https://git-scm.com/downloads">下载地址</a>。下载安装后在命令行中输入<strong>git</strong>，以测试查看是否安装成功。若失败，请使用搜索引擎通过报错来排障；若成功，则需要将你的Git与GitHub账号绑定。步骤如下：</p>
+<p>鼠标右键打开Git Bash</p>
+<p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221048243.png" alt="image-20210305221048243"></p>
+<p>设置user.name和user.email的配置信息：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;你的GitHub用户名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;你的GitHub注册邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>并生成ssh密钥文件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;你的GitHub注册邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>然后敲三次回车，默认不需要设置密码。</p>
+<p>然后找到生成的.ssh文件夹中的id_rsa.pub密钥，并将内容复制。</p>
+<p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221529909.png" alt="image-20210305221529909"></p>
+<p>打开<a href="https://github.com/settings/keys">GitHub-&gt;Setting-&gt;SSH and GPG keys</a>界面，点击New SSH key</p>
+<p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221838421.png" alt="image-20210305221838421"></p>
+<p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221904851.png" alt="image-20210305221904851"></p>
+<p>Title为标题，请自行键入即可，下侧Key区域则需要把刚刚复制的id_rsa.pub文件内容粘贴进去，然后点击Add SSH Key。并在Git Bash中验证公钥是否设置成功。输入 <strong>ssh <a href="mailto:&#x67;&#x69;&#x74;&#x40;&#x67;&#105;&#116;&#x68;&#117;&#x62;&#46;&#99;&#x6f;&#109;">&#x67;&#x69;&#x74;&#x40;&#x67;&#105;&#116;&#x68;&#117;&#x62;&#46;&#99;&#x6f;&#109;</a></strong> ：</p>
+<p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305222539014.png" alt="image-20210305222539014"></p>
+<p>如上，则配置成功。</p>
+<h4 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h4><p>Hexo基于Node.js，Node.js下载地址：<a href="https://nodejs.org/en/download/">Download Node.js</a>。下载并安装后，需要检测Node.js是否安装成功，方式为：在命令行中输入<strong>Node -v &amp; npm -v</strong>。</p>
+<p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305223127221.png" alt="image-20210305223127221"></p>
+<p>至此，Hexo所需环境已全部搭建完成。</p>
+]]></content>
+      <categories>
+        <category>菜鸟小课堂</category>
+      </categories>
+      <tags>
+        <tag>Github</tag>
+        <tag>Hexo</tag>
+        <tag>Node.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Test_My_Site</title>
+    <url>/2021/02/26/test-my-site/</url>
+    <content><![CDATA[<p>Just for test.</p>
+]]></content>
+      <categories>
+        <category>Test</category>
+      </categories>
+      <tags>
+        <tag>Test</tag>
+      </tags>
+  </entry>
+</search>
