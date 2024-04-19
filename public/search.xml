@@ -3,7 +3,7 @@
   <entry>
     <title>常用adb命令</title>
     <url>/2024/04/18/CommonCommandForADB/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">adb root #获取root权限</span><br><span class="line">adb devices #获取adb设备</span><br><span class="line">adb disable-verity #解除验证</span><br><span class="line">adb reboot #重启</span><br><span class="line">adb remount #挂载</span><br><span class="line">adb shell pm path com.package.name #寻找apk路径</span><br><span class="line">adb install -r *.apk #强制安装应用</span><br><span class="line">adb shell am start -n com.package.name/.views.MainActivity #调起某应用</span><br><span class="line">adb shell am force-stop com.package.name #强制停止某应用</span><br><span class="line">adb push file_path target_path #推送某文件至某路径</span><br><span class="line">adb pull target_path local_path #拉取某文件至某路径</span><br><span class="line">adb reboot edl #进入QFIL模式</span><br><span class="line">adb shell getevent -t -l #获取屏幕input事件</span><br><span class="line">adb screencap -p /path/test.png #截屏</span><br><span class="line">adb screenrecord /path/test.mp4 #录屏</span><br><span class="line">adb shell dumpsys input #获取系统输入</span><br><span class="line">adb shell dumpsys windows #获取系统窗口焦点</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h2 id="常用adb命令汇总"><a href="#常用adb命令汇总" class="headerlink" title="常用adb命令汇总"></a>常用adb命令汇总</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">adb root #获取root权限</span><br><span class="line">adb devices #获取adb设备</span><br><span class="line">adb disable-verity #解除验证</span><br><span class="line">adb reboot #重启</span><br><span class="line">adb remount #挂载</span><br><span class="line">adb shell pm path com.package.name #寻找apk路径</span><br><span class="line">adb install -r *.apk #强制安装应用</span><br><span class="line">adb shell am start -n com.package.name/.views.MainActivity #调起某应用</span><br><span class="line">adb shell am force-stop com.package.name #强制停止某应用</span><br><span class="line">adb push file_path target_path #推送某文件至某路径</span><br><span class="line">adb pull target_path local_path #拉取某文件至某路径</span><br><span class="line">adb reboot edl #进入QFIL模式</span><br><span class="line">adb shell getevent -t -l #获取屏幕input事件</span><br><span class="line">adb screencap -p /path/test.png #截屏</span><br><span class="line">adb screenrecord /path/test.mp4 #录屏</span><br><span class="line">adb shell dumpsys input #获取系统输入</span><br><span class="line">adb shell dumpsys windows #获取系统窗口焦点</span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
@@ -11,6 +11,39 @@
       </categories>
       <tags>
         <tag>adb命令</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2.5G光猫+R5S实现2.5G内网</title>
+    <url>/2024/04/19/2-5G%E5%85%89%E7%8C%AB-R5S%E5%AE%9E%E7%8E%B02-5G%E5%86%85%E7%BD%91/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>折腾</category>
+      </categories>
+      <tags>
+        <tag>电信光猫 友善R5S OpenWRT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小米中枢网关极客版实现自动开关厕所门口筒灯</title>
+    <url>/2024/04/19/%E5%B0%8F%E7%B1%B3%E4%B8%AD%E6%9E%A2%E7%BD%91%E5%85%B3%E6%9E%81%E5%AE%A2%E7%89%88%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E5%BC%80%E5%85%B3%E5%8E%95%E6%89%80%E9%97%A8%E5%8F%A3%E7%AD%92%E7%81%AF/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>折腾</category>
+      </categories>
+      <tags>
+        <tag>智能家居 小米中枢网关</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于群晖docker安装Home Hssistant</title>
+    <url>/2024/04/19/%E5%9F%BA%E4%BA%8E%E7%BE%A4%E6%99%96docker%E5%AE%89%E8%A3%85Home-Hssistant/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>折腾</category>
+      </categories>
+      <tags>
+        <tag>智能家居 HA NAS 群晖</tag>
       </tags>
   </entry>
   <entry>
@@ -57,7 +90,7 @@
 <p>打开<a href="https://github.com/settings/keys">GitHub-&gt;Setting-&gt;SSH and GPG keys</a>界面，点击New SSH key</p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221838421.png" alt="image-20210305221838421"></p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221904851.png" alt="image-20210305221904851"></p>
-<p>Title为标题，请自行键入即可，下侧Key区域则需要把刚刚复制的id_rsa.pub文件内容粘贴进去，然后点击Add SSH Key。并在Git Bash中验证公钥是否设置成功。输入 <strong>ssh <a href="mailto:&#103;&#x69;&#116;&#x40;&#x67;&#105;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;">&#103;&#x69;&#116;&#x40;&#x67;&#105;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;</a></strong> ：</p>
+<p>Title为标题，请自行键入即可，下侧Key区域则需要把刚刚复制的id_rsa.pub文件内容粘贴进去，然后点击Add SSH Key。并在Git Bash中验证公钥是否设置成功。输入 <strong>ssh <a href="mailto:&#x67;&#x69;&#116;&#x40;&#103;&#105;&#x74;&#x68;&#x75;&#98;&#x2e;&#99;&#x6f;&#x6d;">&#x67;&#x69;&#116;&#x40;&#103;&#105;&#x74;&#x68;&#x75;&#98;&#x2e;&#99;&#x6f;&#x6d;</a></strong> ：</p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305222539014.png" alt="image-20210305222539014"></p>
 <p>如上，则配置成功。</p>
 <h4 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h4><p>Hexo基于Node.js，Node.js下载地址：<a href="https://nodejs.org/en/download/">Download Node.js</a>。下载并安装后，需要检测Node.js是否安装成功，方式为：在命令行中输入<strong>Node -v &amp; npm -v</strong>。</p>
@@ -136,6 +169,12 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Page</title>
+    <url>/page/index.html</url>
+    <content><![CDATA[<p>This is a page test.</p>
+]]></content>
+  </entry>
+  <entry>
     <title>友链</title>
     <url>/friends/index.html</url>
     <content><![CDATA[<div class="tag-plugin banner"><img class="bg" src="/assets/banner/friends.jpg"><div class="content"><div class="top">
@@ -176,12 +215,6 @@
     <title>朋友文章</title>
     <url>/friends/rss/index.html</url>
     <content><![CDATA[<div class="tag-plugin timeline ds-fcircle" api="https://raw.github.xaox.cc/xaoxuu/friends-rss-generator/output/data.json"></div>
-]]></content>
-  </entry>
-  <entry>
-    <title>Page</title>
-    <url>/page/index.html</url>
-    <content><![CDATA[<p>This is a page test.</p>
 ]]></content>
   </entry>
 </search>
