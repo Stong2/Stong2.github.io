@@ -57,7 +57,7 @@
 <p>打开<a href="https://github.com/settings/keys">GitHub-&gt;Setting-&gt;SSH and GPG keys</a>界面，点击New SSH key</p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221838421.png" alt="image-20210305221838421"></p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221904851.png" alt="image-20210305221904851"></p>
-<p>Title为标题，请自行键入即可，下侧Key区域则需要把刚刚复制的id_rsa.pub文件内容粘贴进去，然后点击Add SSH Key。并在Git Bash中验证公钥是否设置成功。输入 <strong>ssh <a href="mailto:&#103;&#x69;&#116;&#64;&#103;&#105;&#x74;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#109;">&#103;&#x69;&#116;&#64;&#103;&#105;&#x74;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#109;</a></strong> ：</p>
+<p>Title为标题，请自行键入即可，下侧Key区域则需要把刚刚复制的id_rsa.pub文件内容粘贴进去，然后点击Add SSH Key。并在Git Bash中验证公钥是否设置成功。输入 <strong>ssh <a href="mailto:&#103;&#x69;&#116;&#x40;&#x67;&#105;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;">&#103;&#x69;&#116;&#x40;&#x67;&#105;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;</a></strong> ：</p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305222539014.png" alt="image-20210305222539014"></p>
 <p>如上，则配置成功。</p>
 <h4 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h4><p>Hexo基于Node.js，Node.js下载地址：<a href="https://nodejs.org/en/download/">Download Node.js</a>。下载并安装后，需要检测Node.js是否安装成功，方式为：在命令行中输入<strong>Node -v &amp; npm -v</strong>。</p>
@@ -124,14 +124,14 @@
 ]]></content>
   </entry>
   <entry>
-    <title>探索</title>
-    <url>/explore/index.html</url>
+    <title>收藏</title>
+    <url>/bookmark/index.html</url>
     <content><![CDATA[<p>…</p>
 ]]></content>
   </entry>
   <entry>
-    <title>收藏</title>
-    <url>/bookmark/index.html</url>
+    <title>探索</title>
+    <url>/explore/index.html</url>
     <content><![CDATA[<p>…</p>
 ]]></content>
   </entry>
@@ -173,15 +173,15 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Page</title>
-    <url>/page/index.html</url>
-    <content><![CDATA[<p>This is a page test.</p>
-]]></content>
-  </entry>
-  <entry>
     <title>朋友文章</title>
     <url>/friends/rss/index.html</url>
     <content><![CDATA[<div class="tag-plugin timeline ds-fcircle" api="https://raw.github.xaox.cc/xaoxuu/friends-rss-generator/output/data.json"></div>
+]]></content>
+  </entry>
+  <entry>
+    <title>Page</title>
+    <url>/page/index.html</url>
+    <content><![CDATA[<p>This is a page test.</p>
 ]]></content>
   </entry>
 </search>
