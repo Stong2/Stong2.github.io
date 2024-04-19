@@ -14,28 +14,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2.5G光猫+R5S实现2.5G内网</title>
-    <url>/2024/04/19/2-5G%E5%85%89%E7%8C%AB-R5S%E5%AE%9E%E7%8E%B02-5G%E5%86%85%E7%BD%91/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>折腾</category>
-      </categories>
-      <tags>
-        <tag>电信光猫 友善R5S OpenWRT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小米中枢网关极客版实现自动开关厕所门口筒灯</title>
-    <url>/2024/04/19/%E5%B0%8F%E7%B1%B3%E4%B8%AD%E6%9E%A2%E7%BD%91%E5%85%B3%E6%9E%81%E5%AE%A2%E7%89%88%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E5%BC%80%E5%85%B3%E5%8E%95%E6%89%80%E9%97%A8%E5%8F%A3%E7%AD%92%E7%81%AF/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>折腾</category>
-      </categories>
-      <tags>
-        <tag>智能家居 小米中枢网关</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>基于群晖docker安装Home Hssistant</title>
     <url>/2024/04/19/%E5%9F%BA%E4%BA%8E%E7%BE%A4%E6%99%96docker%E5%AE%89%E8%A3%85Home-Hssistant/</url>
     <content><![CDATA[]]></content>
@@ -44,6 +22,17 @@
       </categories>
       <tags>
         <tag>智能家居 HA NAS 群晖</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2.5G光猫+R5S实现2.5G内网</title>
+    <url>/2024/04/19/2-5G%E5%85%89%E7%8C%AB-R5S%E5%AE%9E%E7%8E%B02-5G%E5%86%85%E7%BD%91/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>折腾</category>
+      </categories>
+      <tags>
+        <tag>电信光猫 友善R5S OpenWRT</tag>
       </tags>
   </entry>
   <entry>
@@ -90,7 +79,7 @@
 <p>打开<a href="https://github.com/settings/keys">GitHub-&gt;Setting-&gt;SSH and GPG keys</a>界面，点击New SSH key</p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221838421.png" alt="image-20210305221838421"></p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221904851.png" alt="image-20210305221904851"></p>
-<p>Title为标题，请自行键入即可，下侧Key区域则需要把刚刚复制的id_rsa.pub文件内容粘贴进去，然后点击Add SSH Key。并在Git Bash中验证公钥是否设置成功。输入 <strong>ssh <a href="mailto:&#x67;&#x69;&#116;&#x40;&#103;&#105;&#x74;&#x68;&#x75;&#98;&#x2e;&#99;&#x6f;&#x6d;">&#x67;&#x69;&#116;&#x40;&#103;&#105;&#x74;&#x68;&#x75;&#98;&#x2e;&#99;&#x6f;&#x6d;</a></strong> ：</p>
+<p>Title为标题，请自行键入即可，下侧Key区域则需要把刚刚复制的id_rsa.pub文件内容粘贴进去，然后点击Add SSH Key。并在Git Bash中验证公钥是否设置成功。输入 <strong>ssh <a href="mailto:&#x67;&#105;&#x74;&#x40;&#103;&#105;&#116;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#x6d;">&#x67;&#105;&#x74;&#x40;&#103;&#105;&#116;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#x6d;</a></strong> ：</p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305222539014.png" alt="image-20210305222539014"></p>
 <p>如上，则配置成功。</p>
 <h4 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h4><p>Hexo基于Node.js，Node.js下载地址：<a href="https://nodejs.org/en/download/">Download Node.js</a>。下载并安装后，需要检测Node.js是否安装成功，方式为：在命令行中输入<strong>Node -v &amp; npm -v</strong>。</p>
@@ -128,50 +117,33 @@
       </tags>
   </entry>
   <entry>
-    <title>Test_My_Site</title>
-    <url>/2021/02/26/test-my-site/</url>
-    <content><![CDATA[<p>Just for test.</p>
+    <title>ADAS系统工程师技能树</title>
+    <url>/2024/04/19/ADAS%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8A%80%E8%83%BD%E6%A0%91/</url>
+    <content><![CDATA[<h2 id="ADAS系统工程师基础技能"><a href="#ADAS系统工程师基础技能" class="headerlink" title="ADAS系统工程师基础技能"></a>ADAS系统工程师基础技能</h2><p>进入公司智驾部门后，有幸从零参与了某个L2+级项目的项目的落地，过程中总结了身为系统工程师必备的一些基础技能，现用思维导图大致表述出来，请各位大佬指点：<span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/ablobcatwave.png"/></span> <span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/blobcatcaged.png"/></span></p>
+<p><img src="https://raw.githubusercontent.com/Stong2/BlogImages/main/202404191505793.png"></p>
 ]]></content>
       <categories>
-        <category>Test</category>
+        <category>工作认知</category>
       </categories>
       <tags>
-        <tag>Test</tag>
+        <tag>ADAS 系统工程师</tag>
       </tags>
   </entry>
   <entry>
-    <title>关于我</title>
-    <url>/about/index.html</url>
-    <content><![CDATA[<div class="tag-plugin banner"><img class="bg" src="https://raw.githubusercontent.com/Stong2/BlogImages/main/202404191234225.png"><div class="content"><div class="top">
-    <button class="back cap" onclick="window.history.back()">
-      <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M7.78 12.53a.75.75 0 01-1.06 0L2.47 8.28a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 1.06L4.81 7h7.44a.75.75 0 010 1.5H4.81l2.97 2.97a.75.75 0 010 1.06z"></path></svg>
-    </button>
-    <div class="tag-plugin navbar"><nav><a class="link active" href="/about/">关于</a></nav></div></div><div class="bottom"><img class="avatar" src="https://raw.githubusercontent.com/Stong2/BlogImages/main/202404172027729.jpg"><div class="text-area"><div class="text title">St0n3</div><div class="text subtitle">我是St0n3啊</div></div></div></div></div>
-
-<br>
-
-<div class="tag-plugin quot"><p class="content" type="icon"><img class="icon prefix" src="https://bu.dusays.com/2022/10/24/63567d3e07da3.png" /><span class="text">关于本站</span><span class="empty"></span></p></div>
-
-<p>全体目光向我看齐，听我说个事儿，我是St0n3！<span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/ablobcatattentionreverse.png"/></span></p>
-<p>以后会不定期更新一些文章，欢迎关注！有啥意见欢迎大家留言~(虽然还没开通留言栏  <span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/blobcatgooglytrash.png"/></span></p>
-]]></content>
+    <title>小米中枢网关极客版实现自动开关厕所门口筒灯</title>
+    <url>/2024/04/19/%E5%B0%8F%E7%B1%B3%E4%B8%AD%E6%9E%A2%E7%BD%91%E5%85%B3%E6%9E%81%E5%AE%A2%E7%89%88%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E5%BC%80%E5%85%B3%E5%8E%95%E6%89%80%E9%97%A8%E5%8F%A3%E7%AD%92%E7%81%AF/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>折腾</category>
+      </categories>
+      <tags>
+        <tag>智能家居 小米中枢网关</tag>
+      </tags>
   </entry>
   <entry>
     <title>收藏</title>
     <url>/bookmark/index.html</url>
     <content><![CDATA[<p>…</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>探索</title>
-    <url>/explore/index.html</url>
-    <content><![CDATA[<p>…</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Page</title>
-    <url>/page/index.html</url>
-    <content><![CDATA[<p>This is a page test.</p>
 ]]></content>
   </entry>
   <entry>
@@ -209,6 +181,35 @@
 
 <details class="tag-plugin colorful folding" ><summary><span>我已满足全部条件，快告诉我如何交换友链！<img no-lazy style=display:inline;height:1em src=https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/ablobcatattentionreverse.png></span></summary><div class="body"><div class="tag-plugin colorful note" color="warning"><div class="body"><p>如果您没有满足上述条件，即时提交了申请也不会通过哦～</p></div></div><div class="tag-plugin timeline"><div class="timenode" index="0"><div class="header">第一步：新建 Issue</div><div class="body fs14"><p>新建 <a href="https://github.com/xxx/friends/issues/">GitHub Issue</a> 按照模板格式填写并提交。</p><p>为了提高图片加载速度，建议优化头像：</p><ol><li>打开 <a href="https://www.yasuotu.com/">压缩图</a> 上传自己的头像，将图片尺寸调整到 <code>144px</code> 后下载。</li><li>将压缩后的图片上传到 <a href="https://7bu.top/">去不图床</a> 或者其它稳定的图床并使用此图片链接作为头像。</li></ol></div></div><div class="timenode" index="1"><div class="header">第二步：添加友链并等待管理员审核</div><div class="body fs14"><p>请添加本站到您的友链中：</p><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">xxx</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://xxx.com</span></span><br><span class="line"><span class="attr">avatar:</span> </span><br><span class="line"><span class="attr">screenshot:</span> </span><br></pre></td></tr></table></figure><p>待管理员审核通过，添加了 <code>active</code> 标签后，回来刷新即可生效。</p><p>如果您需要更新自己的友链，请直接修改 issue 内容，大约 3 分钟内生效，无需等待博客重新部署。</p></div></div></div></div></details>
 
+]]></content>
+  </entry>
+  <entry>
+    <title>探索</title>
+    <url>/explore/index.html</url>
+    <content><![CDATA[<p>…</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>关于我</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<div class="tag-plugin banner"><img class="bg" src="https://raw.githubusercontent.com/Stong2/BlogImages/main/202404191234225.png"><div class="content"><div class="top">
+    <button class="back cap" onclick="window.history.back()">
+      <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M7.78 12.53a.75.75 0 01-1.06 0L2.47 8.28a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 1.06L4.81 7h7.44a.75.75 0 010 1.5H4.81l2.97 2.97a.75.75 0 010 1.06z"></path></svg>
+    </button>
+    <div class="tag-plugin navbar"><nav><a class="link active" href="/about/">关于</a></nav></div></div><div class="bottom"><img class="avatar" src="https://raw.githubusercontent.com/Stong2/BlogImages/main/202404172027729.jpg"><div class="text-area"><div class="text title">St0n3</div><div class="text subtitle">我是St0n3啊</div></div></div></div></div>
+
+<br>
+
+<div class="tag-plugin quot"><p class="content" type="icon"><img class="icon prefix" src="https://bu.dusays.com/2022/10/24/63567d3e07da3.png" /><span class="text">关于本站</span><span class="empty"></span></p></div>
+
+<p>全体目光向我看齐，听我说个事儿，我是St0n3！<span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/ablobcatattentionreverse.png"/></span></p>
+<p>以后会不定期更新一些文章，欢迎关注！有啥意见欢迎大家留言~(虽然还没开通留言栏  <span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/blobcatgooglytrash.png"/></span></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Page</title>
+    <url>/page/index.html</url>
+    <content><![CDATA[<p>This is a page test.</p>
 ]]></content>
   </entry>
   <entry>
