@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>常用adb命令</title>
+    <url>/2024/04/18/CommonCommandForADB/</url>
+    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">adb root #获取root权限</span><br><span class="line">adb devices #获取adb设备</span><br><span class="line">adb disable-verity #解除验证</span><br><span class="line">adb reboot #重启</span><br><span class="line">adb remount #挂载</span><br><span class="line">adb shell pm path com.package.name #寻找apk路径</span><br><span class="line">adb install -r *.apk #强制安装应用</span><br><span class="line">adb shell am start -n com.package.name/.views.MainActivity #调起某应用</span><br><span class="line">adb shell am force-stop com.package.name #强制停止某应用</span><br><span class="line">adb push file_path target_path #推送某文件至某路径</span><br><span class="line">adb pull target_path local_path #拉取某文件至某路径</span><br><span class="line">adb reboot edl #进入QFIL模式</span><br><span class="line">adb shell getevent -t -l #获取屏幕input事件</span><br><span class="line">adb screencap -p /path/test.png #截屏</span><br><span class="line">adb screenrecord /path/test.mp4 #录屏</span><br><span class="line">adb shell dumpsys input #获取系统输入</span><br><span class="line">adb shell dumpsys windows #获取系统窗口焦点</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>adb命令</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Github+Node.js+Hexo搭建个人网站</title>
     <url>/2021/02/26/Github-HexoBuildAPersonalWebsite/</url>
     <content><![CDATA[<h2 id="个人网站方案之Github-Node-js-Hexo"><a href="#个人网站方案之Github-Node-js-Hexo" class="headerlink" title="个人网站方案之Github+Node.js+Hexo"></a>个人网站方案之Github+Node.js+Hexo</h2><h3 id="搭建步骤："><a href="#搭建步骤：" class="headerlink" title="搭建步骤："></a>搭建步骤：</h3><ul>
@@ -44,7 +57,7 @@
 <p>打开<a href="https://github.com/settings/keys">GitHub-&gt;Setting-&gt;SSH and GPG keys</a>界面，点击New SSH key</p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221838421.png" alt="image-20210305221838421"></p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221904851.png" alt="image-20210305221904851"></p>
-<p>Title为标题，请自行键入即可，下侧Key区域则需要把刚刚复制的id_rsa.pub文件内容粘贴进去，然后点击Add SSH Key。并在Git Bash中验证公钥是否设置成功。输入 <strong>ssh <a href="mailto:&#x67;&#105;&#116;&#x40;&#x67;&#105;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#105;&#116;&#x40;&#x67;&#105;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#x6f;&#x6d;</a></strong> ：</p>
+<p>Title为标题，请自行键入即可，下侧Key区域则需要把刚刚复制的id_rsa.pub文件内容粘贴进去，然后点击Add SSH Key。并在Git Bash中验证公钥是否设置成功。输入 <strong>ssh <a href="mailto:&#103;&#x69;&#116;&#64;&#103;&#105;&#x74;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#109;">&#103;&#x69;&#116;&#64;&#103;&#105;&#x74;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#109;</a></strong> ：</p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305222539014.png" alt="image-20210305222539014"></p>
 <p>如上，则配置成功。</p>
 <h4 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h4><p>Hexo基于Node.js，Node.js下载地址：<a href="https://nodejs.org/en/download/">Download Node.js</a>。下载并安装后，需要检测Node.js是否安装成功，方式为：在命令行中输入<strong>Node -v &amp; npm -v</strong>。</p>
@@ -82,19 +95,6 @@
       </tags>
   </entry>
   <entry>
-    <title>常用adb命令</title>
-    <url>/2024/04/18/CommonCommandForADB/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">adb root #获取root权限</span><br><span class="line">adb devices #获取adb设备</span><br><span class="line">adb disable-verity #解除验证</span><br><span class="line">adb reboot #重启</span><br><span class="line">adb remount #挂载</span><br><span class="line">adb shell pm path com.package.name #寻找apk路径</span><br><span class="line">adb install -r *.apk #强制安装应用</span><br><span class="line">adb shell am start -n com.package.name/.views.MainActivity #调起某应用</span><br><span class="line">adb shell am force-stop com.package.name #强制停止某应用</span><br><span class="line">adb push file_path target_path #推送某文件至某路径</span><br><span class="line">adb pull target_path local_path #拉取某文件至某路径</span><br><span class="line">adb reboot edl #进入QFIL模式</span><br><span class="line">adb shell getevent -t -l #获取屏幕input事件</span><br><span class="line">adb screencap -p /path/test.png #截屏</span><br><span class="line">adb screenrecord /path/test.mp4 #录屏</span><br><span class="line">adb shell dumpsys input #获取系统输入</span><br><span class="line">adb shell dumpsys windows #获取系统窗口焦点</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>adb命令</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Test_My_Site</title>
     <url>/2021/02/26/test-my-site/</url>
     <content><![CDATA[<p>Just for test.</p>
@@ -107,15 +107,9 @@
       </tags>
   </entry>
   <entry>
-    <title>收藏</title>
-    <url>/bookmark/index.html</url>
-    <content><![CDATA[<p>…</p>
-]]></content>
-  </entry>
-  <entry>
     <title>关于我</title>
     <url>/about/index.html</url>
-    <content><![CDATA[<div class="tag-plugin banner"><img class="bg" src="/assets/banner/nebula.jpg"><div class="content"><div class="top">
+    <content><![CDATA[<div class="tag-plugin banner"><img class="bg" src="https://raw.githubusercontent.com/Stong2/BlogImages/main/202404191234225.png"><div class="content"><div class="top">
     <button class="back cap" onclick="window.history.back()">
       <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M7.78 12.53a.75.75 0 01-1.06 0L2.47 8.28a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 1.06L4.81 7h7.44a.75.75 0 010 1.5H4.81l2.97 2.97a.75.75 0 010 1.06z"></path></svg>
     </button>
@@ -136,15 +130,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Page</title>
-    <url>/page/index.html</url>
-    <content><![CDATA[<p>This is a page test.</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>朋友文章</title>
-    <url>/friends/rss/index.html</url>
-    <content><![CDATA[<div class="tag-plugin timeline ds-fcircle" api="https://raw.github.xaox.cc/xaoxuu/friends-rss-generator/output/data.json"></div>
+    <title>收藏</title>
+    <url>/bookmark/index.html</url>
+    <content><![CDATA[<p>…</p>
 ]]></content>
   </entry>
   <entry>
@@ -182,6 +170,18 @@
 
 <details class="tag-plugin colorful folding" ><summary><span>我已满足全部条件，快告诉我如何交换友链！<img no-lazy style=display:inline;height:1em src=https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/ablobcatattentionreverse.png></span></summary><div class="body"><div class="tag-plugin colorful note" color="warning"><div class="body"><p>如果您没有满足上述条件，即时提交了申请也不会通过哦～</p></div></div><div class="tag-plugin timeline"><div class="timenode" index="0"><div class="header">第一步：新建 Issue</div><div class="body fs14"><p>新建 <a href="https://github.com/xxx/friends/issues/">GitHub Issue</a> 按照模板格式填写并提交。</p><p>为了提高图片加载速度，建议优化头像：</p><ol><li>打开 <a href="https://www.yasuotu.com/">压缩图</a> 上传自己的头像，将图片尺寸调整到 <code>144px</code> 后下载。</li><li>将压缩后的图片上传到 <a href="https://7bu.top/">去不图床</a> 或者其它稳定的图床并使用此图片链接作为头像。</li></ol></div></div><div class="timenode" index="1"><div class="header">第二步：添加友链并等待管理员审核</div><div class="body fs14"><p>请添加本站到您的友链中：</p><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">xxx</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://xxx.com</span></span><br><span class="line"><span class="attr">avatar:</span> </span><br><span class="line"><span class="attr">screenshot:</span> </span><br></pre></td></tr></table></figure><p>待管理员审核通过，添加了 <code>active</code> 标签后，回来刷新即可生效。</p><p>如果您需要更新自己的友链，请直接修改 issue 内容，大约 3 分钟内生效，无需等待博客重新部署。</p></div></div></div></div></details>
 
+]]></content>
+  </entry>
+  <entry>
+    <title>Page</title>
+    <url>/page/index.html</url>
+    <content><![CDATA[<p>This is a page test.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>朋友文章</title>
+    <url>/friends/rss/index.html</url>
+    <content><![CDATA[<div class="tag-plugin timeline ds-fcircle" api="https://raw.github.xaox.cc/xaoxuu/friends-rss-generator/output/data.json"></div>
 ]]></content>
   </entry>
 </search>
