@@ -14,6 +14,18 @@
       </tags>
   </entry>
   <entry>
+    <title>Test_My_Site</title>
+    <url>/2021/02/26/test-my-site/</url>
+    <content><![CDATA[<p>Just for test.</p>
+]]></content>
+      <categories>
+        <category>Test</category>
+      </categories>
+      <tags>
+        <tag>Test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Github+Node.js+Hexo搭建个人网站</title>
     <url>/2021/02/26/Github-HexoBuildAPersonalWebsite/</url>
     <content><![CDATA[<h2 id="个人网站方案之Github-Node-js-Hexo"><a href="#个人网站方案之Github-Node-js-Hexo" class="headerlink" title="个人网站方案之Github+Node.js+Hexo"></a>个人网站方案之Github+Node.js+Hexo</h2><h3 id="搭建步骤："><a href="#搭建步骤：" class="headerlink" title="搭建步骤："></a>搭建步骤：</h3><ul>
@@ -57,7 +69,7 @@
 <p>打开<a href="https://github.com/settings/keys">GitHub-&gt;Setting-&gt;SSH and GPG keys</a>界面，点击New SSH key</p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221838421.png" alt="image-20210305221838421"></p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221904851.png" alt="image-20210305221904851"></p>
-<p>Title为标题，请自行键入即可，下侧Key区域则需要把刚刚复制的id_rsa.pub文件内容粘贴进去，然后点击Add SSH Key。并在Git Bash中验证公钥是否设置成功。输入 <strong>ssh <a href="mailto:&#103;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x68;&#117;&#98;&#46;&#x63;&#111;&#x6d;">&#103;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x68;&#117;&#98;&#46;&#x63;&#111;&#x6d;</a></strong> ：</p>
+<p>Title为标题，请自行键入即可，下侧Key区域则需要把刚刚复制的id_rsa.pub文件内容粘贴进去，然后点击Add SSH Key。并在Git Bash中验证公钥是否设置成功。输入 <strong>ssh <a href="mailto:&#103;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#x68;&#117;&#98;&#x2e;&#x63;&#111;&#109;">&#103;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#x68;&#117;&#98;&#x2e;&#x63;&#111;&#109;</a></strong> ：</p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305222539014.png" alt="image-20210305222539014"></p>
 <p>如上，则配置成功。</p>
 <h4 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h4><p>Hexo基于Node.js，Node.js下载地址：<a href="https://nodejs.org/en/download/">Download Node.js</a>。下载并安装后，需要检测Node.js是否安装成功，方式为：在命令行中输入<strong>Node -v &amp; npm -v</strong>。</p>
@@ -95,32 +107,38 @@
       </tags>
   </entry>
   <entry>
-    <title>Test_My_Site</title>
-    <url>/2021/02/26/test-my-site/</url>
-    <content><![CDATA[<p>Just for test.</p>
-]]></content>
-      <categories>
-        <category>Test</category>
-      </categories>
-      <tags>
-        <tag>Test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于</title>
+    <title>关于我</title>
     <url>/about/index.html</url>
-    <content><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a><div class="tag-plugin banner"><img class="bg" src="/assets/banner/nebula.jpg"><div class="content"><div class="top">
+    <content><![CDATA[<div class="tag-plugin banner"><img class="bg" src="/assets/banner/nebula.jpg"><div class="content"><div class="top">
     <button class="back cap" onclick="window.history.back()">
       <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M7.78 12.53a.75.75 0 01-1.06 0L2.47 8.28a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 1.06L4.81 7h7.44a.75.75 0 010 1.5H4.81l2.97 2.97a.75.75 0 010 1.06z"></path></svg>
     </button>
-    # <div class="tag-plugin navbar"><nav><a class="link" href="/friends/">友链</a><a class="link active" href="/about/">关于</a></nav></div></div><div class="bottom"><img class="avatar" src="/assets/icon.svg"><div class="text-area"><div class="text title">昵称</div><div class="text subtitle">简介</div></div></div></div></div></h1><br>
+    <div class="tag-plugin navbar"><nav><a class="link active" href="/about/">关于</a></nav></div></div><div class="bottom"><img class="avatar" src="/assets/boy.jpg"><div class="text-area"><div class="text title">St0n3</div><div class="text subtitle">我是St0n3啊</div></div></div></div></div>
 
-<h1 id="-1"><a href="#-1" class="headerlink" title=""></a><div class="tag-plugin quot"><p class="content" type="icon"><img class="icon prefix" src="https://bu.dusays.com/2022/10/24/63567d3e07da3.png" /><span class="text">关于本站</span><span class="empty"></span></p></div></h1><h1 id="本站没有任何推广和打赏链接，如果您觉得哪个作品不错，欢迎去对应的仓库点个赞，或者在对应的文章下面留言互动一下。"><a href="#本站没有任何推广和打赏链接，如果您觉得哪个作品不错，欢迎去对应的仓库点个赞，或者在对应的文章下面留言互动一下。" class="headerlink" title="本站没有任何推广和打赏链接，如果您觉得哪个作品不错，欢迎去对应的仓库点个赞，或者在对应的文章下面留言互动一下。"></a>本站没有任何推广和打赏链接，如果您觉得哪个作品不错，欢迎去对应的仓库点个赞，或者在对应的文章下面留言互动一下。<span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/ablobcatattentionreverse.png"/></span></h1><h1 id="开源项目无任何盈利目的，只在工作闲暇时间进行维护，有相关需求请前往对应项目提-Issue-进行反馈，通过私人邮件询问开源项目问题可能得不到答复。"><a href="#开源项目无任何盈利目的，只在工作闲暇时间进行维护，有相关需求请前往对应项目提-Issue-进行反馈，通过私人邮件询问开源项目问题可能得不到答复。" class="headerlink" title="开源项目无任何盈利目的，只在工作闲暇时间进行维护，有相关需求请前往对应项目提 Issue 进行反馈，通过私人邮件询问开源项目问题可能得不到答复。"></a>开源项目无任何盈利目的，只在工作闲暇时间进行维护，有相关需求请前往对应项目提 Issue 进行反馈，通过私人邮件询问开源项目问题可能得不到答复。</h1>]]></content>
+<br>
+
+<div class="tag-plugin quot"><p class="content" type="icon"><img class="icon prefix" src="https://bu.dusays.com/2022/10/24/63567d3e07da3.png" /><span class="text">关于本站</span><span class="empty"></span></p></div>
+
+<p>本站没有任何推广和打赏链接，如果您觉得哪个作品不错，欢迎去对应的仓库点个赞，或者在对应的文章下面留言互动一下。<span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/ablobcatattentionreverse.png"/></span></p>
+<p>开源项目无任何盈利目的，只在工作闲暇时间进行维护，有相关需求请前往对应项目提 Issue 进行反馈，通过私人邮件询问开源项目问题可能得不到答复。</p>
+]]></content>
   </entry>
   <entry>
     <title>收藏</title>
     <url>/bookmark/index.html</url>
     <content><![CDATA[<p>…</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>探索</title>
+    <url>/explore/index.html</url>
+    <content><![CDATA[<p>…</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Page</title>
+    <url>/page/index.html</url>
+    <content><![CDATA[<p>This is a page test.</p>
 ]]></content>
   </entry>
   <entry>
@@ -161,21 +179,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title>探索</title>
-    <url>/explore/index.html</url>
-    <content><![CDATA[<p>…</p>
-]]></content>
-  </entry>
-  <entry>
     <title>朋友文章</title>
     <url>/friends/rss/index.html</url>
     <content><![CDATA[<div class="tag-plugin timeline ds-fcircle" api="https://raw.github.xaox.cc/xaoxuu/friends-rss-generator/output/data.json"></div>
-]]></content>
-  </entry>
-  <entry>
-    <title>Page</title>
-    <url>/page/index.html</url>
-    <content><![CDATA[<p>This is a page test.</p>
 ]]></content>
   </entry>
 </search>
