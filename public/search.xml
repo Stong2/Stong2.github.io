@@ -57,7 +57,7 @@
 <p>打开<a href="https://github.com/settings/keys">GitHub-&gt;Setting-&gt;SSH and GPG keys</a>界面，点击New SSH key</p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221838421.png" alt="image-20210305221838421"></p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305221904851.png" alt="image-20210305221904851"></p>
-<p>Title为标题，请自行键入即可，下侧Key区域则需要把刚刚复制的id_rsa.pub文件内容粘贴进去，然后点击Add SSH Key。并在Git Bash中验证公钥是否设置成功。输入 <strong>ssh <a href="mailto:&#103;&#105;&#x74;&#x40;&#103;&#x69;&#116;&#104;&#x75;&#x62;&#x2e;&#99;&#111;&#109;">&#103;&#105;&#x74;&#x40;&#103;&#x69;&#116;&#104;&#x75;&#x62;&#x2e;&#99;&#111;&#109;</a></strong> ：</p>
+<p>Title为标题，请自行键入即可，下侧Key区域则需要把刚刚复制的id_rsa.pub文件内容粘贴进去，然后点击Add SSH Key。并在Git Bash中验证公钥是否设置成功。输入 <strong>ssh <a href="mailto:&#103;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x68;&#117;&#98;&#46;&#x63;&#111;&#x6d;">&#103;&#105;&#x74;&#64;&#x67;&#105;&#116;&#x68;&#117;&#98;&#46;&#x63;&#111;&#x6d;</a></strong> ：</p>
 <p><img src="https://stone-md-images-1252234645.cos.ap-nanjing.myqcloud.com/image-20210305222539014.png" alt="image-20210305222539014"></p>
 <p>如上，则配置成功。</p>
 <h4 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h4><p>Hexo基于Node.js，Node.js下载地址：<a href="https://nodejs.org/en/download/">Download Node.js</a>。下载并安装后，需要检测Node.js是否安装成功，方式为：在命令行中输入<strong>Node -v &amp; npm -v</strong>。</p>
@@ -105,5 +105,77 @@
       <tags>
         <tag>Test</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>关于</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a><div class="tag-plugin banner"><img class="bg" src="/assets/banner/nebula.jpg"><div class="content"><div class="top">
+    <button class="back cap" onclick="window.history.back()">
+      <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M7.78 12.53a.75.75 0 01-1.06 0L2.47 8.28a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 1.06L4.81 7h7.44a.75.75 0 010 1.5H4.81l2.97 2.97a.75.75 0 010 1.06z"></path></svg>
+    </button>
+    # <div class="tag-plugin navbar"><nav><a class="link" href="/friends/">友链</a><a class="link active" href="/about/">关于</a></nav></div></div><div class="bottom"><img class="avatar" src="/assets/icon.svg"><div class="text-area"><div class="text title">昵称</div><div class="text subtitle">简介</div></div></div></div></div></h1><br>
+
+<h1 id="-1"><a href="#-1" class="headerlink" title=""></a><div class="tag-plugin quot"><p class="content" type="icon"><img class="icon prefix" src="https://bu.dusays.com/2022/10/24/63567d3e07da3.png" /><span class="text">关于本站</span><span class="empty"></span></p></div></h1><h1 id="本站没有任何推广和打赏链接，如果您觉得哪个作品不错，欢迎去对应的仓库点个赞，或者在对应的文章下面留言互动一下。"><a href="#本站没有任何推广和打赏链接，如果您觉得哪个作品不错，欢迎去对应的仓库点个赞，或者在对应的文章下面留言互动一下。" class="headerlink" title="本站没有任何推广和打赏链接，如果您觉得哪个作品不错，欢迎去对应的仓库点个赞，或者在对应的文章下面留言互动一下。"></a>本站没有任何推广和打赏链接，如果您觉得哪个作品不错，欢迎去对应的仓库点个赞，或者在对应的文章下面留言互动一下。<span class="tag-plugin emoji"><img no-lazy="" class="inline" src="https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/ablobcatattentionreverse.png"/></span></h1><h1 id="开源项目无任何盈利目的，只在工作闲暇时间进行维护，有相关需求请前往对应项目提-Issue-进行反馈，通过私人邮件询问开源项目问题可能得不到答复。"><a href="#开源项目无任何盈利目的，只在工作闲暇时间进行维护，有相关需求请前往对应项目提-Issue-进行反馈，通过私人邮件询问开源项目问题可能得不到答复。" class="headerlink" title="开源项目无任何盈利目的，只在工作闲暇时间进行维护，有相关需求请前往对应项目提 Issue 进行反馈，通过私人邮件询问开源项目问题可能得不到答复。"></a>开源项目无任何盈利目的，只在工作闲暇时间进行维护，有相关需求请前往对应项目提 Issue 进行反馈，通过私人邮件询问开源项目问题可能得不到答复。</h1>]]></content>
+  </entry>
+  <entry>
+    <title>收藏</title>
+    <url>/bookmark/index.html</url>
+    <content><![CDATA[<p>…</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>友链</title>
+    <url>/friends/index.html</url>
+    <content><![CDATA[<div class="tag-plugin banner"><img class="bg" src="/assets/banner/friends.jpg"><div class="content"><div class="top">
+    <button class="back cap" onclick="window.history.back()">
+      <svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M7.78 12.53a.75.75 0 01-1.06 0L2.47 8.28a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 1.06L4.81 7h7.44a.75.75 0 010 1.5H4.81l2.97 2.97a.75.75 0 010 1.06z"></path></svg>
+    </button>
+    <div class="tag-plugin navbar"><nav><a class="link active" href="/friends/">友链</a><a class="link" href="/about/">关于</a></nav></div></div><div class="bottom"><div class="text-area"><div class="text title">小伙伴们</div><div class="text subtitle">如果宇宙中真有什么终极的逻辑，那就是我们终有一天会在舰桥上重逢，直到生命终结。</div></div></div></div></div>
+
+<p>#######<div class="tag-plugin users-wrap"><div class="ds-friends"  api="https://raw.github.xaox.cc/xaoxuu/friends/output/v2/data.json"><div class="grid-box"></div></div></div></p>
+<div class="tag-plugin colorful note" ><div class="title"><strong>[2023-12] 友链失联了怎么办?</strong></div><div class="body"><p>添加友链后如果网站长期无法访问，可能会被取消友链！如果您的网站恢复了，可以在申请友链时创建的那条 <a href="https://github.com/xaoxuu/friends/issues">issue</a> 中评论告知。</p></div></div>
+
+<div class="tag-plugin quot"><p class="content" type="icon"><img class="icon prefix" src="https://bu.dusays.com/2022/10/24/63567d3e07da3.png" /><span class="text">朋友们近期的文章</span><span class="empty"></span></p></div>
+
+<div class="tag-plugin timeline ds-fcircle" api="https://raw.github.xaox.cc/xaoxuu/friends-rss-generator/output/data.json" limit="10"></div>
+
+<div class="tag-plugin quot"><p class="content" type="icon"><img class="icon prefix" src="https://bu.dusays.com/2022/10/24/63567d3e07da3.png" /><span class="text">如何交换友链？</span><span class="empty"></span></p></div>
+
+<ol>
+<li>您的网站应满足以下全部条件：</li>
+</ol>
+<ul>
+<li><strong>安全合规</strong>：合法的、非营利性、无木马植入的 HTTPS 站点。</li>
+<li><strong>非空壳网站</strong>：网站内发布至少 <mark class="tag-plugin colorful mark" color="yellow">五篇</mark> 原创文章，内容题材不限。</li>
+</ul>
+<ol start="2">
+<li>我们需要有一定的有效互动：</li>
+</ol>
+<ul>
+<li><strong>先友后链</strong>：与博主有至少 <mark class="tag-plugin colorful mark" color="yellow">半年</mark> 的有效互动，例如 issue 或者评论留言。</li>
+</ul>
+<div class="tag-plugin colorful note" ><div class="title"><strong>[2023-12] 友链申请条件变更说明</strong></div><div class="body"><ol><li>降低了对商业广告的要求，可以有但是不能太多。</li><li>提高了「有效互动」的定义：5次更改为半年。</li></ol></div></div>
+
+<details class="tag-plugin colorful folding" ><summary><span>我已满足全部条件，快告诉我如何交换友链！<img no-lazy style=display:inline;height:1em src=https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs/ablobcatattentionreverse.png></span></summary><div class="body"><div class="tag-plugin colorful note" color="warning"><div class="body"><p>如果您没有满足上述条件，即时提交了申请也不会通过哦～</p></div></div><div class="tag-plugin timeline"><div class="timenode" index="0"><div class="header">第一步：新建 Issue</div><div class="body fs14"><p>新建 <a href="https://github.com/xxx/friends/issues/">GitHub Issue</a> 按照模板格式填写并提交。</p><p>为了提高图片加载速度，建议优化头像：</p><ol><li>打开 <a href="https://www.yasuotu.com/">压缩图</a> 上传自己的头像，将图片尺寸调整到 <code>144px</code> 后下载。</li><li>将压缩后的图片上传到 <a href="https://7bu.top/">去不图床</a> 或者其它稳定的图床并使用此图片链接作为头像。</li></ol></div></div><div class="timenode" index="1"><div class="header">第二步：添加友链并等待管理员审核</div><div class="body fs14"><p>请添加本站到您的友链中：</p><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">xxx</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://xxx.com</span></span><br><span class="line"><span class="attr">avatar:</span> </span><br><span class="line"><span class="attr">screenshot:</span> </span><br></pre></td></tr></table></figure><p>待管理员审核通过，添加了 <code>active</code> 标签后，回来刷新即可生效。</p><p>如果您需要更新自己的友链，请直接修改 issue 内容，大约 3 分钟内生效，无需等待博客重新部署。</p></div></div></div></div></details>
+
+]]></content>
+  </entry>
+  <entry>
+    <title>探索</title>
+    <url>/explore/index.html</url>
+    <content><![CDATA[<p>…</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>朋友文章</title>
+    <url>/friends/rss/index.html</url>
+    <content><![CDATA[<div class="tag-plugin timeline ds-fcircle" api="https://raw.github.xaox.cc/xaoxuu/friends-rss-generator/output/data.json"></div>
+]]></content>
+  </entry>
+  <entry>
+    <title>Page</title>
+    <url>/page/index.html</url>
+    <content><![CDATA[<p>This is a page test.</p>
+]]></content>
   </entry>
 </search>
